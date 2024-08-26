@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>표시자재 일탈 보고서 자동화</title>
+</head>
+<body>
+
+    <h1>표시자재 일탈 보고서 자동화</h1>
+
+    <section>
+        <h3>엑셀 파일 업로드</h3>
+        <div class="form-group" id="fileGroup">
+            <label for="newFile">파일 선택</label>
+            <input class="form-control" id="newFile" type="file" accept=".xlsx" />
+        </div>
+        <button id="uploadButton" class="btn btn-primary">Upload and Generate PPT</button>
+        <div id="progress"></div>
+        <p id="message">결과가 여기에 나타납니다.</p>
+    </section>
+
+    <section id="download-section" style="display:none;">
+        <h3>생성된 PPT 파일</h3>
+        <a id="download-link" href="#" download="customer_complaints_report.pptx">PPT 다운로드</a>
+    </section>
+
+    <!-- 필요한 JavaScript 파일들 -->
+    <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pptxgenjs"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
+
