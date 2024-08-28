@@ -1,3 +1,6 @@
+# 호환되는 app.py
+# rev.02
+
 import dataiku
 
 def get_managed_folder_list():
