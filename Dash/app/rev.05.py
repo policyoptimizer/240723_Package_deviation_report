@@ -1,4 +1,5 @@
-# 여기서부터 수정하면 됨
+# 240829 이걸로 중간 발표 했음
+# 현재까지 Best
 
 import dash
 from dash import html, dcc
