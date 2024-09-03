@@ -1,5 +1,7 @@
-# PPT 보고서 3개 및 엑셀 보고서 1개 생성
-# 일단 구현되니까 메일로 전체 공유 (중간보고)
+# PPT 보고서 3개 및 엑셀 보고서 1개 생성됨
+# 이 코드로 중간보고함
+# 메일로 전체 공유 (중간보고)
+# Best
 
 import dash
 from dash import html, dcc
@@ -266,5 +268,4 @@ def generate_reports(n_clicks, list_of_contents, list_of_names, font_size, align
 
 if __name__ == '__main__':
     app.run_server(debug=True)
-
 
