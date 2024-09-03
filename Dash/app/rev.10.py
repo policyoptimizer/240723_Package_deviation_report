@@ -1,4 +1,5 @@
 # PPT 보고서 3개 및 엑셀 보고서 1개 생성
+# 일단 구현되니까 메일로 전체 공유 (중간보고)
 
 import dash
 from dash import html, dcc
