@@ -1,12 +1,3 @@
-# [기존 ppt]
-# 부적합 추가
-
-# [엑셀 파일]
-# 각 유형별로 개별 시트 출력됨
-# 3가지 폴더 추가함
-# 나머지는 칼럼만 추가
-
-
 import dash
 from dash import html, dcc
 import dash_bootstrap_components as dbc
